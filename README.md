@@ -1,4 +1,14 @@
 # Simple-CarNumber-Detection
 이미지 또는 비디오 파일을 input으로 넣으면 장면당 하나의 차량 번호판을 인식하고 차량 번호판과 인식한 번호(예시 : OOO가 OOOO) 현재 시간과 함께 저장하는 간단한 프로그램입니다.   
    
-동영상에서 차량 번호판이 인식되면 동영상을 3초간 일시 정지하고 인식된 번호판 영역과 인식한 글자를 텍스트로 출력한 후 해당 정보를 저장하고, 3초 후부터 다시 동영상에서 인식을 재개하도록 구현해 볼 예정입니다.
+
+
+https://github.com/UB-Mannheim/tesseract/wiki   
+
+OCR용 라이브러리로 Tesseract를 사용했습니다.   
+
+https://github.com/Mactto/License_Plate_Recognition   
+
+또한 번호판 인식 알고리즘은 해당 github project의 소스코드를 사용했으며, 필요한 부분만을 남겨 plate_recognition.py 파일로 사용했습니다.   
+
+이 프로젝트는 tesseract를 설치한 후, python main.py 명령어로 실행하여 사용이 가능합니다.
